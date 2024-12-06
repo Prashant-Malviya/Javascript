@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    margin: auto;
+}
+
+#countingNum{
+    width: 5px;
+    height: 5px;
+    margin: 10px;
+    position: relative;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.counter-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+    position: relative;
+    top: 8rem;
+}
