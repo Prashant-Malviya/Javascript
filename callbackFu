@@ -1,0 +1,11 @@
+sum(2,4,displayConsole);
+
+function sum (x,y,callback){
+    let result = x+y;
+    callback(result)
+}
+
+function displayConsole(output){
+    console.log(output);
+    
+}
