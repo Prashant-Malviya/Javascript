@@ -15,18 +15,41 @@ let context = canvas.getContext("2d");
 // context.lineTo(250,250)
 // context.stroke();
 
+
+// triangle using canvas 
+// context.strokeStyle = "grey";
+// context.fillStyle = "yellow"
+// context.lineWidth = 10;
+// context.beginPath();
+// context.moveTo(250,0);
+// context.lineTo(0,250)
+// context.lineTo(500,250);
+// context.lineTo(250,0)
+// context.stroke();
+// context.fill();
+
+
+// Draw rectangle
+
+context.fillStyle = "red"
+context.fillRect(0,0,250,250);
+context.strokeStyle = "black";
+context.strokeRect(0,0,250,250)
+
 context.fillStyle = "yellow"
-context.lineWidth = 5;
-context.beginPath();
-context.moveTo(250,0);
-context.lineto(0,250)
-context.lineTo(500,250);
-context.lineTo(250,0)
-context.stroke();
-context.fill();
+context.fillRect(0,250,250,250);
+context.strokeStyle = "black";
+context.strokeRect(0,250,250,250)
 
+context.fillStyle = "green"
+context.fillRect(250,250,250,250);
+context.strokeStyle = "black";
+context.strokeRect(250,250,250,250)
 
-
+context.fillStyle = "black"
+context.fillRect(250,0,250,250);
+context.strokeStyle = "black";
+context.strokeRect(250,0,250,250)
 
 
 
