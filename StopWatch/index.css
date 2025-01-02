@@ -1,0 +1,27 @@
+.timerBtn{
+    width: 5rem;
+    height: 2rem;
+    border: 3px solid;
+    border-radius: 1rem;
+    background-color: #333333;
+    color:white;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    
+}
+
+#timeDisplay{
+    font-size: 5rem;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#timeContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius:2rem;
+    background-color: beige;
+    padding: 2rem 0rem;
+}
